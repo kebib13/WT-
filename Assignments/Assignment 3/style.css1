@@ -1,0 +1,57 @@
+section
+{
+	display: flex;
+}
+div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 2em;
+}
+span
+{
+    display: flex;
+	margin: 0.5em;
+	padding: 1em 4em;
+    justify-content: center;
+}
+.dotted
+{
+	border: 2px dotted #000;
+}
+.dashed
+{
+	border: 3px dashed #000;
+}
+.solid
+{
+	border: 3px solid #000;
+}
+.double
+{
+	border: 3.5px double #000;
+}
+.groove
+{
+	border: 3px groove ;
+}
+.ridge
+{
+	border: 3px ridge ;
+}
+.outset
+{
+	border: 3px outset ;
+}
+.inset
+{
+	border: 3px inset ;
+}
+.none
+{
+	border: 2px none ;
+}
+.hidden
+{
+	border: 2px hidden ;
+}
