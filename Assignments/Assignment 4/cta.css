@@ -1,0 +1,44 @@
+
+.body{
+    text-align: center;
+    font-family: "montserrat",sans-serif;
+} 
+    main{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: fit-content;
+        width: fit-content;
+        margin: auto;
+        max-width: 500px;
+    
+    }
+
+
+h1{
+    color: rgb(17, 17, 85);
+    font-weight: 800;
+   
+}
+div{
+    margin-bottom: 35px;
+}
+
+
+.bt{
+    border-radius: 8px;
+    padding:0.8em 1.5em;
+    text-decoration: none;
+}
+
+.buy{
+   color:#fff; 
+background-color: #2663eb;
+margin: 20px;
+}
+.start {
+    background-color: aliceblue;
+    color: black;
+}

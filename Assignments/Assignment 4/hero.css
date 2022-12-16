@@ -1,0 +1,125 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+}
+.name{
+    position: relative;
+    font-size: 35px;
+    font-weight:700;
+    line-height: 60px;
+    left: 20px;
+
+
+}
+nav ul li{
+    float: left;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    padding-left: 25px;
+    padding-right:25px;
+    left: 350px;
+
+    /* margin-left: 80px; */
+}
+a{
+   color: black;
+}
+.contact{
+    float: right;
+    border: solid 1px rgb(220, 214, 214);
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    bottom:60px;
+    right: 40px;
+}
+.img{
+    height: 500px;
+    width: 700px;
+    border-radius:10px;
+    float: right;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+h2{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    position: relative;
+    left: -500px;
+    top: 150px;
+    color: #1f2937;
+    /* float: left; */
+    /* position: relative; */
+    /* margin-top: 40px; */
+    max-width: fit-content
+}
+.point{
+    float: left;
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+    top: 100px;
+    left: 20px;
+}
+p{
+    display: inline-block;
+}
+.photos{
+    fill: aqua;
+    position: relative;
+    top: 5px;
+    padding-right: 20px;
+    color: blue;
+}
+
+
+.join {
+    /* margin-top: 50px; */
+    text-align: left;
+    position: relative;
+    top: 320px;
+    left: -230px;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 45px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border-color: #3b3b3b13;
+
+}
+
+::placeholder {
+    padding-left: 30px;
+    font-size: 18px;
+    color: #3b3b3bb8;
+}
+
+input[type="submit"] {
+    margin-left: -80px;
+    height: 40px;
+    width: 70px;
+    background: #3B83F7;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    -webkit-appearance: none;
+}
+
