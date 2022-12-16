@@ -1,13 +1,4 @@
-## Deadline : 28th April 2022 - 5th May 2022
-## Live Web Page : 
-### Buttons : (https://www.aayushsth.com.np/Lab/Lab2/buttons.html) 
-### Borders : (https://www.aayushsth.com.np/Lab/Lab2/borders.html)
-## Buttons:
-![App Screenshot](./Buttons.png)
-
-## Borders:
-![App Screenshot](./Borders.png)
-
+## Buttons:## Borders:
 # Background
 ### - The background properties are used to add background effects for elements such as color, image, size, position and attachment. The shorthand property can be used to set all the background type properties.
 
