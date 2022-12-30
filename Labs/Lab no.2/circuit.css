@@ -1,0 +1,50 @@
+body {
+    min-width: 50em;
+}
+
+.div {
+    margin-top: 40px;
+    min-width: 40rem;
+}
+
+.bc {
+    position: fixed;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: solid 3px #ff2f93;
+    background-color: white;
+    top: 3%;
+    left: 4%;
+}
+
+.mc {
+    position: fixed;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: solid 3px #ff2f93;
+    background-color: white;
+    top: 9%;
+    left: 4.5%;
+}
+
+.sc {
+    position: absolute;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: solid 3px #ff2f93;
+    background-color: white;
+    top: 3.2%;
+    left: 6.7%;
+}
+
+.box {
+    position: relative;
+    border: solid 3px #ff2f93;
+    height: 100px;
+    width: 90%;
+    margin: auto auto;
+    min-width: 40em;
+}
