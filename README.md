@@ -3,7 +3,7 @@
 # Assignment-2
 ## Using css style and other stuff to make responsive web page.
 # Assignment-3
-#### Using css style to study about Buttons and borders.
+## Using css style to study about Buttons and borders.
 # Assignment 4
 ## Design of 404 error page.
 ## Design CTA section 
