@@ -22,16 +22,16 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # lab 1 :HTML Elements
-##Nested order and unorder list
-##semantics tags for the layout
-##text formatting tags
-##image, video and audio
-##iframe
+## Nested order and unorder list
+## semantics tags for the layout
+## text formatting tags
+## image, video and audio
+## iframe
 
 #  lab 2 :Flow layout and Positioned layout in CSS
-##Create a wrapper element 
-##Design a circuit 
-##Design a decorative item 
+## Create a wrapper element 
+## Design a circuit 
+## Design a decorative item 
 
 # lab 3 :Javascript Fundamentals
 ## WAP to reverse the string provided by the user.
