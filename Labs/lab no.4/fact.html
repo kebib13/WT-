@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorial</title>
+</head>
+<body>
+    <input type="text" id="data">
+    <br><br>
+    <button id="none">Submit</button>
+    <script>
+        let num = prompt("ENter the number");
+        document.getElementById("data").value = num;
+
+        document.getElementById("none").addEventListener("click",submit);
+        function submit(){
+            let facto =1;
+            
+            for(let i =num; i>=1;i--){
+                facto = facto*i;
+            }
+            console.log(facto)
+            document.getElementById("data").value = facto;
+
+        }
+    </script>
+</body>
+</html>

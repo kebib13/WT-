@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <style>
+        input{
+            position: relative;
+            left: 100px;
+        }
+        #username{
+            left: 75px;
+        }
+        #password{
+            left: 79px;
+        }
+        #email{
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action="process.html">
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <br><br><br><br>
+    </div>
+    <div>
+        <label for="contact">COntact:</label>
+        <input type="number" id="number">
+        <br><br><br><br>
+    </div>
+    <div>
+        <label for="country">Country:</label>
+        <input type="text" id="country"></label>
+        <br><br><br><br>
+    </div>
+    <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" >
+        <br><br><br><br>
+    </div>
+    <div>
+        <button id="submit">Submit</button>
+        <br>
+    </div>
+    <script> 
+       const nameEl = document.getElementById("name");
+       const unameEl = document.getElementById("number");
+       const passwordEl = document.getElementById("country");
+       const emailEl = document.getElementById("email");
+       document.getElementById("submit").addEventListener("click",send,true);
+       function send(e){
+      
+       if(nameEl.value == ""){
+        e.preventDefault();
+        alert("no name")
+       }
+       if(unameEl.value == ""){
+        e.preventDefault();
+        alert("no username");
+       }
+       if( passwordEl.value == ""){
+        e.preventDefault();
+        alert("Empty country")
+       }
+       if(emailEl.value == ""){
+        e.preventDefault();
+        alert("NO email")
+       }
+    }
+
+    </script>
+    </form>
+</body>
+</html>

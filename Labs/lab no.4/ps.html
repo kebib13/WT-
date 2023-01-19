@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ok</title>
+    <style>
+        .ok{
+            background-color: black;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+        }
+        .none{
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            margin: auto;
+            top: 50px;
+            left: 50px;
+
+        }
+        .not{
+            background-color: yellow;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            margin: auto;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ok" onmouseover="change(this)" onmouseleave="def(this)">
+
+    </div>
+    <div class="none"  onmouseover="change(this)" onmouseleave="def(this)">
+
+    </div>
+    <div class="not"  onmouseover="change(this)" onmouseleave="def(this)">
+
+    </div>
+    <script>
+        var col;
+        function change(el){
+            col = el.style.backgroundColor;
+            el.style.backgroundColor = "green"
+        }
+        function def(el){
+            el.style.backgroundColor = col;
+        }
+    </script>
+</body>
+</html>

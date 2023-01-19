@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML DOM Events</h1>
+    <h2>The blur Event</h2>
+
+
+
+    <p>Write in the input field and click outside the field to lose focus (blur).</p>
+
+    <input type="text" id="myText" onblur="myFunction()">
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myText").value;
+            var y = Number.isInteger(x);
+            if (x == "") {
+                alert("Empty");
+            };
+            elseif(y == true) {
+                alert("IS number");
+            };
+            else {
+                alert("Error value")
+            };
+        }
+    </script>
+</body>
+
+</html>
